@@ -1,0 +1,282 @@
+/* Estilos generales */
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-bar {
+  margin-right: 10px;
+}
+
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+/* Estilos del header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.comprar-ahora {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.comprar-ahora button {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Estilos de los productos */
+.product-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  text-align: center;
+}
+
+.product-container {
+  text-align: center;
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  display: block;
+  margin: 10px;
+}
+
+.trending-products {
+  display: flex;
+  justify-content: center;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.trending-product-image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+
+.product-price {
+  font-weight: bold;
+  color: #ff9900;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+/* Estilos de las tendencias */
+.section-title {
+  text-align: center;
+  color: #333;
+}
+
+.trending-products {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.trending-product-image {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+/* Estilos de la sección del boletín */
+.newsletter-section {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.newsletter-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.newsletter-text {
+  text-align: left;
+}
+
+.newsletter-form {
+  text-align: right;
+}
+
+.newsletter-form form {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Estilos de los productos aleatorios */
+.random-products {
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.random-product-image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  margin-top: 5px;
+}
+
+
+/* Estilos de la sección "Sobre nosotros" */
+.about-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-box {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Estilos de la ubicación y redes sociales */
+.location-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.location-box h2.section-title {
+  text-align: left;
+}
+
+.location-box h4 {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.location-box ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.location-box ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.location-box ul li:first-child {
+  margin-left: 0;
+}
+
+
+/* Estilos del footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 20000px;
+}
+
+.footer-text {
+  text-align: left;
+  margin: 0;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.footer-nav li:first-child {
+  margin-left: 0;
+}
+
+.footer-nav li a {
+  color: #fff;
+  text-decoration: none;
+}
