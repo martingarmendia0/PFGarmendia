@@ -4,7 +4,10 @@ body {
   margin: 0;
   padding: 0;
 }
-
+main {
+  margin-left: 0;
+  margin-right: 0;
+}
 .top-bar {
   display: flex;
   align-items: center;
@@ -20,6 +23,7 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
+
 nav ul {
   display: flex;
   list-style: none;
@@ -118,6 +122,7 @@ header h1 {
   text-align: center;
   color: #333;
 }
+
 
 .trending-products {
   display: flex;
@@ -244,6 +249,19 @@ header h1 {
   margin-left: 0;
 }
 
+.social-media-section {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.social-media-section ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
 
 /* Estilos del footer */
 footer {
@@ -279,4 +297,139 @@ footer {
 .footer-nav li a {
   color: #fff;
   text-decoration: none;
+}
+
+@media screen and (max-width: 420px) {
+  /* Estilos para dispositivos móviles de 375px a 420px */
+  .container {
+    padding: 10px;
+  }
+
+  .product-container {
+    margin-bottom: 10px;
+  }
+
+  .newsletter-form input[type="email"] {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logo {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .footer-nav {
+    text-align: center;
+  }
+
+  .footer-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-nav li {
+    padding: 5px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  .social-media-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .social-media-section h4 {
+    margin-bottom: 10px;
+  }
+
+  .social-media-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-inline-start: 0;
+  }
+
+  .social-media-section li {
+    margin: 5px;
+    list-style: none;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  header {
+    text-align: center;
+  }
+
+  main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+  }
+
+  .top-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .search-bar {
+    width: 100%;
+  }
+
+  .search-bar input {
+    width: 100%;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  .footer-nav {
+    text-align: center;
+  }
+
+  .location-box,
+  .social-media-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .location-box h2.section-title,
+  .social-media-section h4 {
+    margin: 0;
+  }
+
+  .location-box ul,
+  .social-media-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .location-box ul li,
+  .social-media-section ul li {
+    display: inline;
+  }
 }
