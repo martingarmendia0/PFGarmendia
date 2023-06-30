@@ -4,10 +4,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
 main {
   margin-left: 0;
   margin-right: 0;
 }
+
 .top-bar {
   display: flex;
   align-items: center;
@@ -52,6 +54,11 @@ header h1 {
   margin: 0;
 }
 
+.navHeader {
+  display: flex;
+  text-align: right;
+}
+
 .comprar-ahora {
   display: flex;
   justify-content: center;
@@ -92,7 +99,7 @@ header h1 {
 
 .trending-products {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .product-container {
@@ -108,7 +115,6 @@ header h1 {
   margin-bottom: 10px;
 }
 
-
 .product-price {
   font-weight: bold;
   color: #ff9900;
@@ -122,7 +128,6 @@ header h1 {
   text-align: center;
   color: #333;
 }
-
 
 .trending-products {
   display: flex;
@@ -202,7 +207,6 @@ header h1 {
   margin-top: 5px;
 }
 
-
 /* Estilos de la sección "Sobre nosotros" */
 .about-section {
   text-align: center;
@@ -251,17 +255,16 @@ header h1 {
 
 .social-media-section {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .social-media-section ul {
   list-style: none;
   padding-inline-start: 0;
 }
-
 
 /* Estilos del footer */
 footer {
@@ -295,7 +298,6 @@ footer {
 }
 
 .footer-nav li a {
-  color: #fff;
   text-decoration: none;
 }
 
@@ -348,6 +350,7 @@ footer {
     box-sizing: border-box;
     resize: vertical;
   }
+
   .social-media-section {
     display: flex;
     justify-content: center;
@@ -431,5 +434,12 @@ footer {
   .location-box ul li,
   .social-media-section ul li {
     display: inline;
+  }
+
+  .navHeader .nav-toggle {
+    display: block;
+    text-align: right;
+    padding: 10px;
+    cursor: pointer;
   }
 }
