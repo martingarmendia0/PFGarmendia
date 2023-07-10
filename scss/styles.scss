@@ -244,6 +244,9 @@ ul {
   }
 }
 }
+.masCarrito {
+text-align: right;
+}
 }
 
 @media screen and (max-width: 769px) {
@@ -313,5 +316,12 @@ text-align: right;
 padding: 10px;
 cursor: pointer;
 }
+}
+.nuestraEmpresa {
+    text-align: center;
+}
+
+.productosSimilares {
+    text-align: center;
 }
 }

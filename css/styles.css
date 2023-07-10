@@ -40,6 +40,14 @@ body {
   nav ul li a {
     text-decoration: none;
   }
+
+  .nuestraEmpresa {
+    text-align: center;
+}
+
+.productosSimilares {
+    text-align: center;
+}
   
   /* Estilos del header */
   header {
@@ -72,7 +80,10 @@ body {
     border: none;
     border-radius: 5px;
   }
-  
+
+  .masCarrito {
+text-align: right;
+}
   /* Estilos de los productos */
   .product-section {
     display: flex;

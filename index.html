@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio de venta online de ..."
+    <meta name="keywords" content="venta, ecommerce, tendencias, hotSale, productoAVender">
     <title>Tienda Online</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -74,24 +76,57 @@
             <button type="submit">Comprar Ahora</button>
         </div>
         <hr>
-    </main>
+    </main>    
     <h2 class="section-title">Tendencias</h2>
-    <div class="container">
+<div id="trendingCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container">
         <div class="row">
-            <div class="col-md-6">
-                <div class="product-container">
-                    <img src="./images/descarga.jpg" alt="Producto 4" class="trending-product-image">
-                    <p class="product-price">$300</p>
-                </div>
+          <div class="col-md-6">
+            <div class="product-container">
+              <img src="./images/descarga.jpg" alt="Producto 4" class="trending-product-image">
+              <p class="product-price">$300</p>
             </div>
-            <div class="col-md-6">
-                <div class="product-container">
-                    <img src="./images/descarga.jpg" alt="Producto 5" class="trending-product-image">
-                    <p class="product-price">$300</p>
-                </div>
+          </div>
+          <div class="col-md-6">
+            <div class="product-container">
+              <img src="./images/descarga.jpg" alt="Producto 5" class="trending-product-image">
+              <p class="product-price">$300</p>
             </div>
+          </div>
         </div>
+      </div>
     </div>
+    <div class="carousel-item">
+      <!-- Agregar aquí más productos-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="product-container">
+              <img src="./images/descarga.jpg" alt="Producto 6" class="trending-product-image">
+              <p class="product-price">$300</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="product-container">
+              <img src="./images/descarga.jpg" alt="Producto 7" class="trending-product-image">
+              <p class="product-price">$300</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev btn-primary" type="button" data-bs-target="#trendingCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next btn-primary" type="button" data-bs-target="#trendingCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
     <hr>
     <section class="boletin">
         <div class="newsletter-section">
@@ -167,26 +202,30 @@
                     feugiat posuere.</p>
             </div>
             <hr>
-            <div class="location-box">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="section-title">Dirección</h2>
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387115.4703346037!2d2.142050921064045!3d41.39489757071564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2fc21c2e77f%3A0x19f2ff8241751206!2sBarcelona%2C%20Espa%C3%B1a!5e0!3m2!1ses!2sar!4v1636076661715!5m2!1ses!2sar"
-                            width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-    </section>
-    <section class="social-media-section">
-        <div class="col-md-6">
-            <h4>Redes Sociales</h4>
-            <ul>
-                <li><a href="#WhatsApp">WhatsApp</a></li>
-                <li><a href="#Instagram">Instagram</a></li>
-                <li><a href="#TikTok">TikTok</a></li>
-                <li><a href="#Facebook">Facebook</a></li>
-            </ul>
-        </div>
-    </section>
+                  <div class="col-md-6">
+                    <section class="location-box">
+                      <h2 class="section-title">Dirección</h2>
+                      <div class="square-iframe">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387115.4703346037!2d2.142050921064045!3d41.39489757071564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2fc21c2e77f%3A0x19f2ff8241751206!2sBarcelona%2C%20Espa%C3%B1a!5e0!3m2!1ses!2sar!4v1636076661715!5m2!1ses!2sar"
+                          width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                      </div>
+                    </section>
+                  </div>
+                  <div class="col-md-6">
+                    <section class="social-media-section text-center">
+                      <h4>Redes Sociales</h4>
+                      <ul>
+                        <li><a href="#WhatsApp">WhatsApp</a></li>
+                        <li><a href="#Instagram">Instagram</a></li>
+                        <li><a href="#TikTok">TikTok</a></li>
+                        <li><a href="#Facebook">Facebook</a></li>
+                      </ul>
+                    </section>
+                  </div>
+                </div>
+              </div>                          
     <hr>
     <footer>
         <p class="footer-text">Nombre de la Empresa</p>
