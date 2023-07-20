@@ -1,0 +1,49 @@
+.product-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .logo {
+    text-align: center;
+    }
+    
+    .product-container {
+    text-align: center;
+    
+    
+    .product-image {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 10px;
+      margin: 0 auto;
+      display: block;
+      margin: 10px;
+    }
+    
+    .trending-products {
+      display: flex;
+      justify-content: space-between;
+      
+      .product-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        
+        .trending-product-image {
+          width: 200px;
+          height: 200px;
+          margin-bottom: 10px;
+        }
+        
+        .product-price {
+          font-weight: bold;
+          color: #ff9900;
+          display: inline-block;
+          vertical-align: middle;
+          margin: 10px;
+        }
+      }
+    }
+    }
+    }
