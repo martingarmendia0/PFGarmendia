@@ -1,8 +1,8 @@
-// _variables.scss (Partial)
+// _colors.scss (Partial)
 @import ".//base/colors.scss";
 
 // _fonts.scss (Partial)
-@import ".//base/fonts;";
+@import ".//base/fonts";
 
 // _header.scss (Partial)
 @import ".//layouts/headers.scss";
@@ -18,3 +18,6 @@
 
 // main.scss (Main file)
 @import "./layouts/main.scss";
+
+// _carrito.scss (Partial)
+@import "./pages/carrito";

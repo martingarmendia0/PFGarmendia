@@ -402,7 +402,29 @@ footer {
   font-size: 14px;
 }
 
+.img-fixed-size {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/*Estilos de la página de Ayuda*/
+
+.ayuda form {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.ayuda form textarea {
+  resize: none;
+}
+
+.ayuda form button[type="submit"] {
+  float: right;
+}
+
 @media screen and (max-width: 420px) {
+
   /* Estilos para dispositivos móviles de 375px a 420px */
   .container {
     padding: 10px;
